@@ -28,8 +28,8 @@ public class RetotresApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		//borrado inicial de datos
-		orderRepository.deleteAll();
-		userRepository.deleteAll();
-		gadgetRepositoy.deleteAll();
+	//	orderRepository.deleteAll();
+	//	userRepository.deleteAll();
+	//	gadgetRepositoy.deleteAll();
 	}
 }
