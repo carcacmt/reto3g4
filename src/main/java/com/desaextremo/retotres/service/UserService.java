@@ -81,12 +81,6 @@ public class UserService {
                 if ((user.getName() != null) && (!user.getName().equals(""))) {
                     if (!userDb.getName().equals(user.getName()))  userDb.setName(user.getName());
                 }
-                if ((user.getBirthtDay() != null) && (!user.getBirthtDay().equals(""))) {
-                    if (!userDb.getBirthtDay().equals(user.getBirthtDay()))  userDb.setBirthtDay(user.getBirthtDay());
-                }
-                if ((user.getMonthBirthtDay() != null) && (!user.getMonthBirthtDay().equals(""))) {
-                    if (!userDb.getMonthBirthtDay().equals(user.getMonthBirthtDay()))  userDb.setMonthBirthtDay(user.getMonthBirthtDay());
-                }
                 if ((user.getAddress() != null) && (!user.getAddress().equals(""))) {
                     if (!userDb.getAddress().equals(user.getAddress())) userDb.setAddress(user.getAddress());
                 }
