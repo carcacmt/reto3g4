@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/gadget")
+@RequestMapping("/api/gadget")
 @CrossOrigin(origins = "*")
 public class GadgetController {
     @Autowired
